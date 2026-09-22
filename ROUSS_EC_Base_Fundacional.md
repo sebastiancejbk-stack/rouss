@@ -6,6 +6,8 @@
 > **Limitación metodológica transversal, honesta y relevante para cómo se debe usar este documento:** la investigación se realizó con búsqueda web automatizada; el acceso de lectura directa (fetch) a decenas de dominios clave —INEC, CECE, Mercado Libre Ecuador, Fybeca, farmacias, Instagram/Facebook, Meta Ad Library, GNC Ecuador, Pronutrition, Wildland, La Milenaria, y varias plataformas logísticas— estuvo bloqueado en el entorno de investigación. Esto significa que una parte importante de la evidencia proviene de fragmentos de buscador (snippets), no de la lectura verificada de la fuente primaria, y que **casi ningún precio exacto en dólares de competidores ecuatorianos pudo confirmarse de forma independiente**. Esto se señala explícitamente cada vez que aplica, y se listan en la Sección 28 las verificaciones manuales pendientes que el equipo de ROUSS debería completar antes de fijar pricing definitivo o afirmaciones de alto impacto ante inversionistas.
 >
 > Nota sobre los documentos de Dropper y la API de Rocketfy mencionados en el brief original: **no fue posible acceder a ellos en esta sesión** (el repositorio de trabajo estaba vacío y no se encontraron archivos adjuntos). La Sección 23 describe la arquitectura conceptual de la integración Meta → WhatsApp → Dropper → Rocketfy basada únicamente en la descripción funcional que el propio brief de ROUSS ofrece de estas herramientas, sin inventar detalles técnicos. Esto debe tratarse como [D] DESCONOCIDO en todo lo específico de la implementación y completarse cuando esos documentos estén disponibles.
+>
+> **Nota de actualización (v1.1).** Se añadieron las Secciones 30-33 con una ronda adicional de investigación dirigida específicamente a la hipótesis female-first (las 7 preguntas del brief de investigación) y a tres micronichos que no tenían desarrollo propio (envejecimiento activo, confort físico, vitalidad/energía sin cafeína), más un plan de validación con datos propios que compara explícitamente hombres vs. mujeres en cada etapa del funnel. Esta ronda tuvo el mismo bloqueo de acceso directo a fuentes primarias (INEC, CECE) que la investigación original — los hallazgos de fuentes oficiales se marcan [B] en vez de [A] cuando provienen de resumen de buscador y no de lectura directa del documento primario, y así se señala en cada caso.
 
 ---
 
@@ -24,6 +26,8 @@ Cinco hallazgos deben cambiar decisiones concretas de ROUSS de inmediato:
 5. **Nadie en el mercado ecuatoriano identificado comunica activamente garantía de devolución ni seguimiento postventa como propuesta de valor** [B, gap de mercado]. Es la oportunidad de diferenciación de menor costo y mayor impacto en confianza que esta investigación encontró.
 
 Este documento no es un plan de marketing terminado. Es la base de conocimiento sobre la cual ROUSS debe decidir, probar y — sobre todo — **medir lo que hoy es hipótesis**, para que dentro de un año este mismo documento pueda reescribirse con hechos propios en lugar de literatura ajena.
+
+**Sobre la actualización v1.1 (Secciones 30-33):** una segunda ronda de investigación, dirigida específicamente a las 7 preguntas de la hipótesis female-first del brief original, confirma el rol de cuidado femenino en Ecuador con evidencia más granular (INEC/CSTNRH) y encuentra evidencia académica ecuatoriana directa de menor reclamo femenino — pero **corrige a la baja** la suposición de mayor actividad femenina en compra digital (Colombia muestra el patrón inverso a Ecuador/México) y confirma que **no existe ninguna evidencia externa, en ningún país de la región, sobre mayor tasa de recompra femenina** — el vacío más grande de todo el documento. Ver Sección 30 para el detalle completo, pregunta por pregunta.
 
 ---
 
@@ -73,10 +77,13 @@ La hipótesis inicial del brief —"productos que ayudan a cuidar, aliviar o mej
 | **Visión / presbicia** | Universal >45 años | Media (vergüenza social puntual) | Alta (antes/después de leer) | **Alta** (antecedente negativo de "lentes dial = estafa") | Ticket medio, recompra por pérdida/rotura, compra múltiple familiar | Medio-alto (no reemplaza examen oftalmológico) | Medio-alto | Alto — patrón de "hijo compra para padre" muy fuerte culturalmente |
 
 **Otros micronichos que emergen de la investigación y que ROUSS debería evaluar con el mismo framework (Sección/Entregable 3) antes de descartarlos o adoptarlos:**
-- **Energía sin cafeína** (adyacente a vitamina C/proteína, mencionado como motivador de compra recurrente).
-- **Cuidado de adultos mayores / sarcopenia** — respaldo científico real, casi sin explotar como ángulo de marketing en Ecuador [B, whitespace identificado en investigación de proteína].
+- **Energía sin cafeína** (adyacente a vitamina C/proteína, mencionado como motivador de compra recurrente) — ver desarrollo ampliado en Sección 31.
+- **Cuidado de adultos mayores / sarcopenia / envejecimiento activo** — respaldo científico real, casi sin explotar como ángulo de marketing en Ecuador [B, whitespace identificado en investigación de proteína] — ver desarrollo ampliado en Sección 31, con dato oficial INEC de demanda de colágeno.
 - **Comodidad para dormir en pareja** (más allá del ronquido: almohadas, aromaterapia) — cross-sell natural del kit antironquido, sin competidor que lo empaquete todavía [B].
 - **Autocuidado femenino de bajo compromiso** (colágeno, combos vitamina C+colágeno) — ya validado como SKU en farmacias, con audiencia mayoritariamente femenina documentada [A].
+- **Confort físico** (dolor articular, postura, dolor lumbar) — micronicho nuevo con evidencia oficial de demanda en Ecuador (INEC) pero sin competidor de nicho identificado — ver desarrollo ampliado en Sección 31.
+
+**Nota sobre sesgo de género en estos micronichos:** para envejecimiento activo, confort físico y vitalidad/energía sin cafeína específicamente, la investigación adicional (Sección 31) **no encontró ninguna evidencia de sesgo de género del comprador** — solo evidencia de demanda general. Cualquier afirmación de que "las mujeres compran más" estos tres productos sería [C] HIPÓTESIS no verificada, no un hallazgo.
 
 **Territorios que la evidencia sugiere evitar o tratar con extremo cuidado:** cualquier ángulo de "detox"/"elimina toxinas" (riesgo regulatorio y reputacional real, no teórico, en Ecuador); cualquier mecanismo tipo "lente ajustable por dial" (asociación pública negativa fuerte, "estafa de infomercial"); cualquier claim de cura/tratamiento de apnea del sueño (frontera regulatoria de dispositivo médico).
 
@@ -144,7 +151,7 @@ Ver Sección 6 para el desarrollo completo. El resumen ejecutivo: **la hipótesi
 **Dos estereotipos comunes deben descartarse activamente, no adoptarse:**
 
 - *"Las mujeres compran más por impulso"* — la evidencia es mixta; al menos un estudio no encuentra diferencia significativa por género, y donde sí existe diferencia, la compra impulsiva femenina está más asociada a motivación emocional/social y la masculina a lo funcional — no es una regla generalizable ni válida para construir un mensaje de marca [C, evidencia insuficiente y no LatAm].
-- *"Las mujeres reclaman menos"* — la evidencia real la **contradice o la matiza fuertemente**: un estudio encuentra que los hombres reclaman más (83% vs 77%); lo mejor respaldado es que hombres y mujeres reclaman con frecuencia similar pero por canales distintos — las mujeres tienden a comentar una mala experiencia en su círculo social/redes antes que exigir una devolución directa a la marca [B, evidencia de EE.UU., no LatAm]. **Implicación operativa real para ROUSS:** una clienta insatisfecha que no escribe a soporte no es necesariamente una clienta satisfecha — puede estar comentándolo en su grupo de WhatsApp o dejando de recomendar la marca en silencio. El sistema de postventa proactivo (Sección 20) es más importante que un canal de reclamos pasivo.
+- *"Las mujeres reclaman menos"* — la evidencia real la **contradice o la matiza fuertemente**: un estudio encuentra que los hombres reclaman más (83% vs 77%); lo mejor respaldado es que hombres y mujeres reclaman con frecuencia similar pero por canales distintos — las mujeres tienden a comentar una mala experiencia en su círculo social/redes antes que exigir una devolución directa a la marca [B, evidencia de EE.UU., no LatAm]. **Actualización (Sección 30.5):** un estudio académico específicamente ecuatoriano confirma la misma dirección — las mujeres ecuatorianas reclaman menos en presencia de otros clientes por mayor preocupación por el manejo de su imagen pública [A, evidencia local directa]. **Implicación operativa real para ROUSS:** una clienta insatisfecha que no escribe a soporte no es necesariamente una clienta satisfecha — puede estar comentándolo en su grupo de WhatsApp o dejando de recomendar la marca en silencio. El sistema de postventa proactivo (Sección 20) es más importante que un canal de reclamos pasivo.
 
 **Lo que sí tiene respaldo y debe informar el copy:** la confianza específica en el vendedor (no la confianza interpersonal general) predice la compra [A, estudio académico Ecuador/Perú] — una marca nueva puede generar confianza sin ser "reconocida", con señales concretas y verificables. El boca a boca en redes sociales y la credibilidad percibida del emisor son factores clave documentados en estudios ecuatorianos (aplicados a cosmética, extensible por analogía) [A].
 
@@ -374,7 +381,7 @@ Ver Sección 29 (Anexos) para las 8 tablas maestras completas con su esquema de 
 
 ## 25. Hipótesis que debemos validar
 
-Esta es, junto con el Entregable 5, la sección más importante del documento para la operación de los próximos 90 días — consolida toda hipótesis marcada [C] a lo largo del documento:
+Esta es, junto con el Entregable 5, la sección más importante del documento para la operación de los próximos 90 días — consolida toda hipótesis marcada [C] a lo largo del documento. **Ver Sección 30 para las 7 hipótesis específicas de la estrategia female-first, evaluadas pregunta por pregunta con una ronda de investigación adicional, y Sección 32 para el plan de validación que las compara directamente con datos propios de ROUSS.**
 
 | Hipótesis | Evidencia a favor | Evidencia en contra | Confianza | Cómo validarla |
 |---|---|---|---|---|
@@ -423,6 +430,13 @@ Todas las fuentes primarias citadas están documentadas con URL, fecha (cuando s
 - Meta Ad Library filtrado por Ecuador, para las 5 categorías — no fue posible acceder a anuncios activos reales ni a su gasto/alcance.
 - Reseñas textuales verificadas con fecha de Mercado Libre Ecuador para las 5 categorías (las citas de este documento provienen mayormente de México/España/EE.UU. por bloqueo de acceso).
 - Perfiles de Instagram/Facebook de Distrimass, Prime Nutrition, Enercrease, Proteinas Guayaquil, Lentes Ecuador para precios y ángulos publicitarios reales.
+
+**Verificaciones pendientes adicionales de la actualización v1.1 (Secciones 30-32), por el mismo bloqueo de acceso directo a fuentes primarias:**
+- PDF primario de las Cuentas Satélite del Trabajo No Remunerado de los Hogares (CSTNRH 2023) del INEC, para confirmar la cifra de 72,7%/27,3% en cuidado del hogar y resolver la contradicción de horas semanales (28,7h/11,4h vs. 39h/15h) citada en la Sección 30.1.
+- Año exacto de medición del dato CECE-UEES de 51% mujeres compradoras online en Ecuador (Sección 30.2) — no se pudo confirmar si corresponde a la medición más reciente.
+- Texto completo del paper "Unlocking repurchase intentions in e-commerce platforms: the impact of e-service quality and gender" (Cogent Business & Management, 2025) citado en la Sección 30.6 — el resumen de búsqueda no permitió confirmar país del estudio ni dirección del efecto de género.
+- Estudio de eWOM y cosméticos en Ecuador (Redalyc, Sección 30.5) — no se pudo extraer el resultado numérico exacto de la moderación por género.
+- Reportes de Black Friday Ecuador (SRI/NielsenIQ/CECE) con desglose de género — no se encontraron en dos intentos de búsqueda distintos.
 
 ---
 
@@ -586,3 +600,130 @@ NUEVA HIPÓTESIS (se actualiza este documento con datos propios de ROUSS)
 ```
 
 **El objetivo de este ciclo no es solo vender más — es que dentro de 12 meses, las tablas de la Sección 29 y las hipótesis de la Sección 25 estén pobladas con datos propios de ROUSS en vez de literatura externa citada de México, España o EE.UU.** Ese es el momento en que ROUSS se convierte, en el sentido literal que pide el brief original, en una empresa que aprende de sus propios clientes.
+
+---
+
+# ACTUALIZACIÓN — Hipótesis Female-First, Micronichos Ampliados y Cierre Directo (v1.1)
+
+> Esta parte del documento se añadió en una segunda ronda de investigación dirigida específicamente a cerrar los vacíos más citados en las Secciones 6-9 y 25: la hipótesis female-first pregunta por pregunta, tres micronichos sin desarrollo propio, y un plan de validación que compara explícitamente hombres y mujeres en cada etapa del funnel. No reemplaza nada de lo anterior — lo complementa y, en dos puntos, lo corrige (Sección 30, pregunta 2). Misma disciplina de evidencia [A]/[B]/[C]/[D] que el resto del documento.
+
+## 30. Hipótesis Female-First — las 7 preguntas del brief, respondidas directamente
+
+### 30.1 ¿Qué evidencia existe de que las mujeres ecuatorianas tienen mayor rol de cuidado cotidiano propio y del hogar?
+
+**[A/B] Evidencia fuerte a moderada, y más granular que el dato ya citado (75% del trabajo doméstico no remunerado).** Las Cuentas Satélite del Trabajo No Remunerado de los Hogares (CSTNRH) del INEC desglosan específicamente "cuidado a miembros del hogar" como categoría separada del trabajo doméstico general: 72,7% del tiempo de cuidado lo aportan mujeres, 27,3% hombres (INEC, dato 2023) [B, vía resumen de búsqueda — el PDF primario de INEC no fue accesible directamente, igual que en la investigación original]. En horas semanales de trabajo no remunerado hay **dos cifras que se contradicen entre fuentes secundarias** (28,7h mujeres / 11,4h hombres según Infobae citando CSTNRH 2023, vs. 39h / 15h según otra fuente no identificada con precisión — probablemente una medición ENUT anterior) — se presentan ambas, sin promediar, siguiendo la regla del documento. Adicionalmente: 83,2% de los cuidadores informales de adultos mayores en Ecuador son mujeres, y 57,9% son hijas/hijos del adulto mayor cuidado [B, estudio académico ecuatoriano, cita no verificada en el texto original]. **Lo que NO se encontró:** una categoría específica de "cuidado de salud/bienestar del hogar" separada de cuidado general (ej. tiempo dedicado a comprar/administrar medicamentos o suplementos) — el desglose más cercano sigue siendo "cuidado a miembros del hogar" en sentido amplio [D] para el recorte específico de salud/bienestar.
+
+**Conclusión operativa:** el rol de cuidado femenino en Ecuador tiene el respaldo cuantitativo más fuerte de las 7 preguntas — es el pilar más sólido de la hipótesis female-first, aunque sigue sin conectar directamente con "compra de bienestar" (eso es la pregunta 30.4).
+
+### 30.2 ¿Hay evidencia de mayor actividad en compra digital / social commerce?
+
+**[B] Evidencia moderada y CONTRADICTORIA entre países — este es el punto donde la investigación adicional corrige, no solo confirma, la intuición de partida.** Ecuador (CECE-UEES, año de medición exacto no confirmado) y México muestran mujeres como ~51% de compradores online, hombres 49% — una diferencia pequeña, no una brecha decisiva [B]. **Pero Colombia muestra el patrón inverso**: 58% de las compras en ecommerce las hacen hombres, 42% mujeres, según la Cámara Colombiana de Comercio Electrónico [B]. En social commerce LatAm, WhatsApp concentra solo 14% de las compras vía redes sociales (Facebook 39%, Instagram 29%) [B], y **no se encontró ningún estudio con desglose de género específico para el uso de WhatsApp/Instagram/TikTok Shop como canal de compra en Ecuador** [D] — el vacío de evidencia más relevante para el modelo operativo exacto de ROUSS (Meta Ads → WhatsApp → COD), porque es precisamente el canal que la marca usa y sobre el que no hay dato de género.
+
+**Conclusión operativa:** **no se puede afirmar con evidencia que las mujeres ecuatorianas compren más por canales digitales/sociales que los hombres** — la cifra ecuatoriana disponible (51/49) es casi pareja, y el patrón se invierte en Colombia. Esta pieza de la hipótesis female-first queda en **[C] HIPÓTESIS NO CONFIRMADA, con evidencia direccional débil y una contradicción regional real** — no debe usarse como argumento de peso para la estrategia female-first ante el equipo o inversionistas.
+
+### 30.3 ¿Hay evidencia de que compren más productos de bienestar?
+
+**[A/B] Evidencia fuerte en el "qué" se compra en Ecuador, pero [D] en el "quién" lo compra por género.** El INEC (vía ENIGHUR, actualización mayo 2026, ~20 millones de compras analizadas en 41.184 hogares) confirma con dato oficial directo que colágeno lidera el gasto en "medicina natural" de los hogares ecuatorianos, multivitamínicos concentran el mayor gasto familiar en medicamentos, y los tratamientos musculoesqueléticos están entre las 5 categorías más compradas [A, fuente oficial, dato directo — pero **sin desglose de género**, que es [D]]. La señal de género viene de fuentes comerciales, no oficiales: en Centroamérica, mujeres de 26-45 años representarían 75% de consumidores de suplementos alimenticios [B, región comparable, no Ecuador]; en Argentina, una plataforma comercial reporta que 54,7% de mujeres empezaron a consumir suplementos en el último año (vs 41,9% hombres) y que colágeno es el producto más buscado por mujeres [B, dato de una sola plataforma comercial argentina, no un estudio con metodología pública, y no Ecuador].
+
+**Conclusión operativa:** el dato ecuatoriano más fuerte de todo este bloque (INEC/ENIGHUR sobre qué se compra) es exactamente el que le falta la variable de género — es la brecha de evidencia más valiosa y más barata de cerrar con datos propios de ROUSS, porque ROUSS sí puede registrar el género de quien compra desde el primer pedido.
+
+### 30.4 ¿Hay evidencia de que compren para terceros?
+
+**[B] Evidencia indirecta consistente mediante decisión de compra del hogar y rol de cuidado — sigue sin evidencia DIRECTA sobre bienestar específicamente.** Estudios de consumo masivo en la región (no Ecuador) muestran que las mujeres deciden o pagan la mayoría del gasto del hogar: 90% de las compras de consumo en Perú (Kantar) [B]; 96% en Brasil (fuente secundaria sin metodología verificada) [B]; 56,4% del gasto del hogar en Colombia en 2022 [B]; 86% del crecimiento del gasto en lácteos en México viene de mujeres [B]. Sumado al dato ya citado del documento (48,1% de compras de medicamentos sin receta en Ecuador se basa en recomendación familiar, UCE) y al 83,2% de cuidadoras informales de adultos mayores (30.1), la dirección de la evidencia es consistente. **Pero, igual que en la investigación original, no se encontró ningún estudio ecuatoriano o regional que mida directamente "¿quién compra vitaminas/suplementos/analgésicos PARA otro miembro del hogar?"** [D] — todo lo disponible es inferencia a partir de decisión de compra general o de rol de cuidado, no de bienestar/suplementos comprados específicamente para terceros.
+
+**Conclusión operativa:** sin cambios respecto a la Sección 7 — sigue siendo la hipótesis más citada y menos medida directamente. Confirma que la pregunta de guion "¿es para ti o para alguien más?" (Sección 18, Entregable 5) sigue siendo la única forma realista de cerrar este vacío específico para bienestar.
+
+### 30.5 ¿Hay evidencia de que reclamen menos?
+
+**[A] Evidencia académica específicamente ecuatoriana, en la misma dirección que el dato de EE.UU. ya citado en la Sección 8.** Un estudio peer-reviewed sobre comportamiento de reclamo en restaurantes ecuatorianos encuentra que las mujeres reclaman menos que los hombres en presencia de otros clientes, por mayor preocupación por el manejo de la imagen pública ("impression management") [A, estudio académico específico de Ecuador — la pieza de evidencia más fuerte encontrada en toda esta ronda]. La propia literatura académica declara explícitamente que "la mayoría de la investigación existente se ha realizado en mercados occidentales y asiáticos, dejando a América Latina como una región mayormente inexplorada" [A, afirmación directa de la literatura sobre el vacío mismo] — lo cual confirma que el vacío de evidencia LatAm es real y reconocido, no solo un límite de esta búsqueda. No se encontró ningún estudio cuantitativo LatAm que mida el % de mujeres vs. hombres que reclaman por canal (directo a la marca vs. redes sociales/boca a boca) [D].
+
+**Conclusión operativa:** esta es la pregunta con el respaldo más sólido de las 7 — Ecuador tiene ahora evidencia académica local, no solo extranjera, apuntando en la misma dirección. Refuerza la recomendación ya presente en la Sección 8: el sistema de postventa proactivo importa más que un canal de reclamos pasivo, porque una clienta insatisfecha que no reclama directamente puede estar comentándolo en su círculo en vez de escribir a soporte.
+
+### 30.6 ¿Hay evidencia de que tengan mayor recompra?
+
+**[D] DESCONOCIDO — el vacío más grande de las 7 preguntas.** Tras tres intentos de búsqueda con términos distintos, no se encontró ninguna cifra cuantitativa de tasa de recompra, retención o LTV desglosada por género en LatAm o Ecuador. Lo único disponible es descriptivo, no medido: en Colombia, fuentes de industria afirman que las mujeres valoran promociones, envíos rápidos y compras sin fricción como factores de lealtad [B, cualitativo, sin cifra]. Un paper académico reciente (Cogent Business & Management, 2025) encuentra que el género modera la relación entre calidad del e-servicio e intención de recompra, pero no fue posible confirmar la dirección del efecto ni el país del estudio a partir del resumen disponible [D, requiere lectura del texto completo antes de citarse].
+
+**Conclusión operativa:** no existe ninguna base externa para afirmar, ni siquiera direccionalmente, que las mujeres recompren más que los hombres en Ecuador o LatAm. Esta pieza de la hipótesis female-first debe tratarse como **completamente abierta** — es, de las 7, la que con más claridad *solo* puede resolverse con datos propios de ROUSS (ver Sección 32).
+
+### 30.7 ¿Qué no puede saberse sin datos propios de ROUSS?
+
+Con esta segunda ronda de investigación, el mapa de lo que la literatura externa puede y no puede responder queda así:
+
+| Pregunta | ¿Resoluble con literatura externa? | Estado |
+|---|---|---|
+| Rol de cuidado del hogar por género | Sí, con matices | [A/B] — el más sólido |
+| Reclamo por género | Sí, con evidencia ecuatoriana directa | [A] — sólido |
+| Compra para terceros (bienestar específicamente) | No | [D] — solo inferencia indirecta |
+| Compra de bienestar/suplementos por género en Ecuador | Parcial (el "qué" sí, el "quién" no) | [A] parcial + [D] |
+| Actividad en compra digital/social commerce por género | No de forma concluyente (contradicción regional) | [C], corregido a la baja por esta ronda |
+| Recompra/lealtad por género | No | [D] — vacío total |
+| Sesgo de género en micronichos nuevos (envejecimiento activo, confort físico, vitalidad) | No | [D] — vacío total (ver Sección 31) |
+
+**Lo que se sigue sin poder saber sin datos propios, sin excepción:** (1) si la clienta ecuatoriana específica de ROUSS compra más por WhatsApp/Instagram que el cliente hombre; (2) si compra bienestar para terceros con qué frecuencia y para quién exactamente; (3) si recompra más o menos que los hombres; (4) si reclama menos en el canal específico de ROUSS (WhatsApp) y, si reclama menos, si eso oculta insatisfacción silenciosa medible de otra forma (NPS, tasa de no-recompra sin reclamo previo). Ninguno de estos cuatro puntos tiene un atajo de literatura — el Plan de Validación (Sección 32) existe específicamente para cerrarlos.
+
+---
+
+## 31. Micronichos ampliados: envejecimiento activo, confort físico, vitalidad/energía sin cafeína
+
+Estos tres micronichos estaban mencionados en la Sección 4 solo como categorías a evaluar, sin desarrollo propio. Se añaden aquí con el mismo framework de evaluación de la Sección 4 y del Entregable 2.
+
+| Micronicho | Evidencia de demanda (Ecuador/LatAm) | Evidencia de sesgo de género | Frecuencia/urgencia | Demostrabilidad | Riesgo regulatorio | Fit ROUSS |
+|---|---|---|---|---|---|---|
+| **Envejecimiento activo** (más allá de proteína/sarcopenia ya cubierto en Sección 13) | Colágeno lidera gasto en "medicina natural" de hogares ecuatorianos [A, INEC/ENIGHUR]; mercado LatAm de colágeno hidrolizado ~USD 72M en 2023, proyectado a USD 126M en 2032 [B]; existe programa estatal ecuatoriano de "Envejecimiento Activo" (IESS, desde 2021), señal de reconocimiento institucional del tema, no de mercado de consumo [B, contexto] | Ninguna encontrada — se conoce demanda general, no por género [D] | Alta (proceso continuo, no puntual) | Media (requiere testimonio/tiempo, no antes-después inmediato) | Bajo-medio (evitar claims de "revierte el envejecimiento") | Alto — cross-sell natural con proteína/colágeno ya validados en el catálogo conceptual |
+| **Confort físico** (dolor articular, postura, dolor lumbar) | >96% del personal administrativo ecuatoriano reportó síntomas musculoesqueléticos por posturas forzadas en el último año [B, estudio ocupacional, no de consumo de producto]; el MSP tiene Guía de Práctica Clínica propia para dolor lumbar (2016), confirmando que es un problema de salud pública reconocido oficialmente [B, contexto clínico]; tratamientos musculoesqueléticos entre las 5 categorías de medicamentos más compradas por hogares ecuatorianos [A, INEC/ENIGHUR] | Ninguna encontrada [D] | Alta (problema cotidiano, oficinistas y adultos mayores) | Alta (se puede demostrar postura/alivio en video) | Medio (evitar sugerir que reemplaza fisioterapia/consulta médica en dolor crónico) | Medio-alto — territorio nuevo, sin competidor identificado en el mapeo de la Sección 11 |
+| **Vitalidad / energía sin cafeína** | Tendencias genéricas de suplementos LatAm 2025 mencionan adaptógenos y vitamina B como categoría en crecimiento, sin cifra de mercado específica de Ecuador [C, editorial/tendencia, no dato medido]; magnesio con +30% de crecimiento en usuarios reportado por una plataforma comercial argentina, motivado por "mejor descanso" más que por energía explícitamente [B, Argentina, no Ecuador] | Ninguna encontrada [D] | Alta (fatiga es queja cotidiana común) | Baja (beneficio subjetivo, difícil de demostrar sin exagerar) | Bajo | Medio — territorio con evidencia de demanda más débil de los tres, y el más fácil de sobre-prometer |
+
+**Advertencia explícita, aplicable a los tres:** la evidencia de *demanda de mercado* para estas categorías es razonable (especialmente envejecimiento activo/confort físico, respaldada por dato oficial INEC), pero la evidencia de *sesgo de género del comprador* es **[D] DESCONOCIDA en los tres casos** — inferir que "las mujeres compran más esto" a partir de la evidencia general de la pregunta 30.3 sería exactamente el error que este documento existe para prevenir (convertir una hipótesis plausible en un hecho de marca sin dato directo). Si ROUSS desarrolla alguno de estos tres micronichos, debe aplicarse primero la matriz del Entregable 2 y luego instrumentar la captura de género/destinatario desde el primer pedido (Sección 32), exactamente igual que con los 5 productos actuales.
+
+---
+
+## 32. Plan de validación con datos propios — Hombres vs. Mujeres
+
+Este plan responde directamente al punto 13 del brief de investigación: instrumentar el funnel **LEAD → PEDIDO → CONFIRMADO → ENVIADO → ENTREGADO → SATISFACCIÓN → RECOMPRA** comparando explícitamente hombres y mujeres en cada etapa, para poder reemplazar cada fila de la tabla de la Sección 30.7 con un dato propio en vez de una hipótesis externa.
+
+| Métrica | Qué prueba de la hipótesis female-first | Cómo capturarla | Frecuencia de revisión |
+|---|---|---|---|
+| **Costo por lead cualificado (CPL)** por género del lead | Si la audiencia female-first realmente cuesta menos/más de adquirir en Meta Ads de lo asumido | Segmentar campañas/creativos por audiencia declarada + inferencia por nombre/contexto de conversación (con las limitaciones de privacidad de la Sección 32.1) | Semanal por campaña |
+| **Conversión de lead a pedido** por género | Si el género del lead predice intención real de compra (relacionado con 30.2) | Cruce de campo "género" (capturado o inferido) con estado "pedido creado" en Dropper | Semanal |
+| **Tasa de confirmación** por género | Si hay diferencia en seriedad/intención real de compra por género (relacionado con 30.2 y 30.6) | Cruce de género con estado "confirmado" antes de despacho (Sección 8 del Operating System) | Semanal |
+| **Tasa de entrega efectiva** por género | Si hay diferencia operativa real (dirección, disponibilidad) por género del comprador | Cruce de género con estado "entregado" vs. "no entregado" | Quincenal |
+| **Tasa de rechazo en destino** | Igual que arriba, para el "enfriamiento" del impulso de compra (Sección 19) | Cruce de género con motivo de rechazo capturado por el repartidor/confirmador | Quincenal |
+| **Tasa de devolución** por género | Si hay diferencia en satisfacción real post-entrega no capturada por reclamo directo (relacionado con 30.5) | Cruce de género con solicitudes de devolución/cambio | Mensual |
+| **Tasa de reclamo** por género, **y por canal** (WhatsApp directo a ROUSS vs. mención en redes/grupos si es detectable) | Prueba directa de la Sección 30.5 — si las mujeres reclaman menos en el canal de ROUSS específicamente, y si eso se refleja en menor NPS/recompra silenciosa | Registro de reclamos en Dropper con campo género + revisión manual de menciones públicas (Instagram/reseñas) cuando existan | Mensual |
+| **Ticket promedio** por género | Si hay diferencia real de disposición de gasto por género (no asumida en ningún punto de este documento) | Cruce de género con valor de pedido | Mensual |
+| **Margen por pedido entregado** por género | La métrica de negocio real (Sección 10 del Operating System) — nunca solo pedidos generados | Cruce de género con margen neto del pedido entregado (precio − costo − logística − rechazo prorrateado) | Mensual |
+| **Recompra a 30/60/90 días** por género | Prueba directa de la Sección 30.6 — el vacío más grande de toda la investigación externa | Cohortes de clientes por género con seguimiento de segunda compra en las ventanas 30/60/90 días desde la entrega | Mensual, por cohorte |
+
+### 32.1 Cómo capturar género sin dañar la conversión ni violar privacidad
+
+- **No preguntar "¿eres hombre o mujer?" de forma directa** — es fricción innecesaria (Sección 7 del Operating System: "el vendedor no interroga"). El dato debe capturarse de forma conversacional o inferirse con cautela de: nombre proporcionado para el envío, tono de la conversación, o quién aparece como destinatario vs. quien escribe (relacionado con la pregunta "¿es para ti o para alguien más?", Sección 18).
+- **La inferencia por nombre es imperfecta y debe tratarse como dato de trabajo, no como hecho** — nombres ambiguos, pedidos hechos por un tercero (asistente, familiar) o cuentas compartidas introducen ruido. Cualquier análisis de esta sección debe reportar también el % de pedidos con género "no determinado", no forzar una clasificación binaria sobre datos ambiguos.
+- **Nunca usar el dato de género para excluir o tratar peor a un segmento** — el propósito es exclusivamente medir para decidir dónde invertir presupuesto de adquisición y cómo ajustar mensajes, no para restringir servicio.
+
+### 32.2 Regla de decisión
+
+Siguiendo el principio de jerarquía de fuentes del Operating System (Sección 2): **en cuanto exista una muestra mínima razonable (orden de magnitud: decenas de pedidos entregados por segmento, no unos pocos) que contradiga una hipótesis [C] de este documento — incluida cualquier fila de la Sección 30 — el dato propio reemplaza la hipótesis externa**, y la tabla de la Sección 30.7 se actualiza en la siguiente revisión del documento (ver cadencia sugerida en la Sección 26, Mes 3+).
+
+---
+
+## 33. Respuestas directas — Cierre del brief de investigación
+
+**¿En qué mercado está ROUSS?** El mercado ecuatoriano de ecommerce/social commerce de bienestar cotidiano vendido por Meta Ads → WhatsApp → COD (~USD 5.500M de ecommerce total en 2024 [A], con WhatsApp e Instagram como canales de compra dominantes [A]) — no el mercado de suplementos deportivos ni el mercado farmacéutico tradicional, aunque compite indirectamente con ambos (Sección 3, Sección 10).
+
+**¿Cuál es su nicho?** Soluciones de bajo compromiso para fricciones cotidianas de bienestar que alguien —uno mismo u otra persona de su entorno— ya identificó pero no ha resuelto con una solución "seria" (médico, óptica, especialista) — el hilo conductor es el patrón de comportamiento, no la categoría de producto (Sección 4).
+
+**¿Cuáles son sus micronichos prioritarios?** Por evidencia y fit actual: sueño/pareja (kit antironquido) y visión/presbicia (lentes) como territorios diferenciadores de mayor demostrabilidad y menor competencia de marca; inmunidad, nutrición y digestión como anclas de recompra/hábito. Envejecimiento activo y confort físico (Sección 31) son los micronichos nuevos con mejor evidencia de demanda ecuatoriana (dato INEC directo) para evaluar a continuación; vitalidad/energía sin cafeína tiene la evidencia más débil de los tres y debe tratarse con más cautela.
+
+**¿Quién es su comprador central?** Con la evidencia disponible hoy: **no puede afirmarse con certeza que sea un arquetipo único** — hay 4 arquetipos de comportamiento razonablemente fundamentados (Sección 6), y en al menos 2 de los 5 productos actuales el comprador y el usuario son personas distintas. El arquetipo "gestora que resuelve por otros" es el más citado por el brief original, pero sigue siendo [C] HIPÓTESIS, no un hecho confirmado (Sección 7, Sección 30.4).
+
+**¿Qué papel juegan las mujeres?** Un papel de cuidado del hogar sólidamente documentado (Sección 30.1, [A/B]) y de reclamo reducido en el canal directo también bien documentado (Sección 30.5, [A]) — ambos hallazgos con evidencia ecuatoriana específica. Pero **no hay evidencia de que compren más por los canales digitales que usa ROUSS (Sección 30.2, contradicción regional), de que compren más bienestar específicamente por género (Sección 30.3, dato sin desglose), ni de que recompren más (Sección 30.6, vacío total).** La estrategia female-first es defendible como apuesta de comunicación (territorio, tono, identidad visual) apoyada en el rol de cuidado documentado — **no como hecho de conversión ya probado**, y debe presentarse así ante el equipo e inversionistas.
+
+**¿Qué problemas debe resolver?** Los que cumplan el patrón de la Sección 4: frecuentes, de baja/media urgencia pero molestia acumulativa, demostrables sin exagerar, con mecanismo explicable en una frase, y sin antecedente reputacional o regulatorio activo en Ecuador (Entregable 2, Entregable 3).
+
+**¿Qué productos pertenecen?** Los que pasan el Product Fit Framework (Entregable 3) sin fallar en las preguntas de veto (confianza, regulación, riesgo) — hoy: vitamina C, proteína (reposicionada fuera del ángulo fitness), kit antironquido, lentes multifocales, y candidatos nuevos de confort físico/envejecimiento activo evaluados con la misma matriz (Sección 31, Entregable 2).
+
+**¿Qué productos NO pertenecen?** Cualquier producto con claim de "detox"/eliminación de toxinas (antecedente ARCSA real, Sección 4, 13, 15); mecanismos tipo "lente ajustable por dial" (antecedente reputacional público negativo); cualquier producto que requiera un claim médico no sustentable o que se confunda con el tratamiento de una condición más seria (apnea vs. ronquido, Sección 15 del Operating System); cualquier producto que solo tenga sentido para una identidad 100% fitness o 100% femenina excluyente (Sección 14).
+
+**¿Qué hipótesis quedan abiertas?** Las siete de la Sección 30.7, con foco especial en las tres completamente sin evidencia externa: actividad diferencial en compra digital (30.2), sesgo de género en los micronichos nuevos (31), y recompra/lealtad por género (30.6) — más las ya listadas en la Sección 25 (comprador vs. usuario en kit antironquido y lentes, efecto de humanizar WhatsApp, efecto de garantía visible).
+
+**¿Qué datos deberá recopilar ROUSS para sustituir hipótesis por evidencia?** Exactamente los del Plan de Validación de la Sección 32 (funnel completo segmentado por género) más la pregunta de guion "¿es para ti o para alguien más?" ya recomendada en la Sección 18 y el Entregable 5 — sin ambos, dentro de 12 meses este documento seguiría citando estudios de México, Colombia y Argentina en vez de datos propios de ROUSS, que es precisamente lo que la Sección 21 del SOP define como el objetivo final de todo este proceso.
